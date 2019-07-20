@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-	width: 1370px;
+	width: 1140px;
 	margin: 0 auto;
 	overflow: hidden;
 }
@@ -17,16 +17,23 @@ body{
 /************ Top-section *******************/
 .top-section{
 	background: url(../images/banner-bg.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
 }
 .header-section{padding-top: 40px;}
 .logo{
-    width: 30%;
+    width: 20%;
     float: left;
 }
-.logo img{}
+.logo img{
+    width: 100%;
+}
 .nav{
-    width: 70%;
+    width: 80%;
     float: left;
+    margin-top: 15px;
 }
 .nav ul{
     float: right;
@@ -39,7 +46,7 @@ body{
 .nav ul li a{
     text-decoration: none;
     color: #d6d6d6;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     transition: all .4s ease;
 }
@@ -59,28 +66,29 @@ body{
 }
 /***** banner-section *******/
 .banner-section{
-    padding-bottom: 276px;
+    /* padding-bottom: 276px; */
 }
 .banner-content{
     width: 50%;
     float: left;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .banner-content h1{
     color: #f7f7f7;
-    font-size: 48px;
+    font-size: 40px;
     text-transform: uppercase;
 }
 .banner-content p{
     color: #f7f7f7;
-    font-size: 20px;
+    font-size: 18px;
     margin: 50px 0;
 }
-.banner-content .button{}
+.banner-content .button{
+}
 .banner-content .button .contact{
     text-decoration: none;
     padding: 10px 40px;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     color: #756aff;
     background: #f7f7f7;
@@ -88,6 +96,7 @@ body{
     font-weight: 600;
     border: 1px solid #f7f7f7;
     transition: all .4s linear;
+    display: inline-block;
 }
 .banner-content .button .contact:hover{
 	color: #f7f7f7;
@@ -97,7 +106,7 @@ body{
 .banner-content .button .view{
     text-decoration: none;
     padding: 10px 40px;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     color: #f7f7f7;
     background: transparent;
@@ -106,6 +115,7 @@ body{
     font-weight: 600;
     margin-left: 20px;
     transition: all .4s linear;
+    display: inline-block;
 }
 .banner-content .button .view:hover{
 	color: #756aff;
@@ -114,9 +124,11 @@ body{
 .img-right{
     width: 50%;
     float: left;
-    margin-top: 40px;
+    margin-top: 50px;
 }
-.img-right img{}
+.img-right img{
+    width: 100%;
+}
 
 
 /************* service-section *****************/
@@ -125,7 +137,7 @@ body{
 }
 .service-content{
     text-align: center;
-    max-width: 65%;
+    max-width: 75%;
     margin: 0 auto;
 }
 .service-content h1{
@@ -139,7 +151,7 @@ body{
 }
 .service-content p{
     color: #3f3f3f;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .service-box{
@@ -161,12 +173,12 @@ body{
 }
 .single-box p{
     color: #3f3f3f;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 25px;
 }
 .single-box a{
     color: #756aff;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     font-weight: 600;
 }
@@ -194,7 +206,7 @@ body{
     color: #756aff;
 }
 .lead-content p{
-    font-size: 20px;
+    font-size: 18px;
     color: #3f3f3f;
     margin: 40px 0;
 }
@@ -204,7 +216,7 @@ body{
 .contact-btn{
     text-decoration: none;
     padding: 10px 40px;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     color: #756aff;
     border-radius: 50px;
@@ -223,6 +235,8 @@ body{
 .complete-project{
 	background: url(../images/complete-project-bg.png);
 	padding: 100px 0;
+	background-size: cover;
+	background-position: center;
 }
 .complete-project h1{
     font-size: 35px;
@@ -239,7 +253,7 @@ body{
     float: left;
     box-sizing: border-box;
     text-align: center;
-    padding: 0 30px;
+    padding: 0 15px;
 }
 .complete-box .hover-bg{
     padding: 20px 0;
@@ -264,7 +278,7 @@ body{
 }
 .portfolio-content{
     text-align: center;
-    max-width: 65%;
+    max-width: 75%;
     margin: 0 auto;
 }
 .portfolio-content h1{
@@ -277,7 +291,7 @@ body{
     color: #756aff;
 }
 .portfolio-content p{
-    font-size: 20px;
+    font-size: 18px;
     color: #3f3f3f;
     margin-bottom: 90px;
 }
@@ -285,11 +299,11 @@ body{
 .portfolio{}
 .portfolio-title{
     text-align: center;
-    margin-bottom: 65px;
+    margin-bottom: 50px;
 }
 .portfolio-title ul{
     display: inline-block;
-    max-width: 60%;
+    max-width: 80%;
     margin: 0 auto;
     text-align: center;
     border: 2px solid #756aff;
@@ -300,7 +314,7 @@ body{
     float: left;
 }
 .portfolio-title ul li a{
-    font-size: 20px;
+    font-size: 18px;
     color: #3f3f3f;
     text-decoration: none;
     text-transform: uppercase;
@@ -396,7 +410,7 @@ body{
 }
 .work-content p{
     color: #f7f7f7;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 60px;
 }
 
@@ -404,7 +418,7 @@ body{
 .submit-form{
     margin: 0 auto;
     margin-bottom: 100px;
-    max-width: 65%;
+    max-width: 75%;
     overflow: hidden;
 }
 .submit-form form{
@@ -426,7 +440,7 @@ body{
     width: 100%;
     padding: 10px;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     color: #3f3f3f;
     background: #f6fbff;
 }
@@ -456,10 +470,10 @@ body{
     left: 370px;
 }
 .submit-form form .email input[type="email"]{
-    width: 100%;
+    width: 85%;
     padding: 10px;
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     color: #3f3f3f;
     background: #f6fbff;
     padding-left: 25px;
@@ -471,12 +485,12 @@ body{
     width: 30%;
     float: left;
     position: absolute;
-    right: -25px;
+    right: -29px;
     top: 0;
 }
 .submit-form form .submit-btn input[type="submit"]{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     border-radius: 50px;
     font-weight: 600;
@@ -485,7 +499,7 @@ body{
     color: #fff;
     transition: all .4s linear;
     border: none;
-    padding: 19px 70px;
+    padding: 20px 65px;
     cursor: pointer;
     transition: all .4s linear;
 }
@@ -499,7 +513,7 @@ body{
     padding: 100px 0;
 }
 .top-content{
-    max-width: 50%;
+    max-width: 55%;
     margin: 0 auto;
     text-align: center;
 }
@@ -514,7 +528,7 @@ body{
 }
 .top-content p{
     color: #3f3f3f;
-    font-size: 20px;
+    font-size: 18px;
 }
 .client-box{
     margin-top: 80px;
@@ -596,12 +610,10 @@ box-shadow: 1px 3px 6px 0 #dedbdb59;
 
 
 /************ contact-us-section ****************/
-.contact-us-section{
-    padding: 100px 0;
-}
+.contact-us-section{padding-bottom: 100px;}
 .contact-title{
     text-align: center;
-    max-width: 50%;
+    max-width: 55%;
     margin: 0 auto;
 }
 .contact-title h1{
@@ -615,7 +627,7 @@ box-shadow: 1px 3px 6px 0 #dedbdb59;
 }
 .contact-title p{
     color: #3f3f3f;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 50px;
 }
 .contact-box{}
@@ -637,7 +649,7 @@ box-shadow: 1px 3px 6px 0 #dedbdb59;
 .contact-box-one .single-box-bg span i{}
 .contact-box-one .single-box-bg p{
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 18px;
     color: #3f3f3f;
 }
 
@@ -663,7 +675,7 @@ box-shadow: 1px 3px 6px 0 #dedbdb59;
     box-sizing: border-box;
     background: #fafafa;
     border: 1px solid #e6e3e3;
-    font-size: 20px;
+    font-size: 18px;
     color: #3f3f3f;
 }
 .form .FormName input[type="text"]:focus,
@@ -684,7 +696,7 @@ box-shadow: 1px 3px 6px 0 #dedbdb59;
     padding: 10px 0 10px 10px;
     background: #fafafa;
     border: 1px solid #e6e3e3;
-    font-size: 20px;
+    font-size: 18px;
     color: #3f3f3f;
 }
 
@@ -700,7 +712,7 @@ box-shadow: 1px 3px 6px 0 #dedbdb59;
     padding: 10px 0 10px 10px;
     background: #fafafa;
     border: 1px solid #e6e3e3;
-    font-size: 20px;
+    font-size: 18px;
     color: #3f3f3f;
 }
 .form .FormText{}
@@ -710,13 +722,14 @@ box-shadow: 1px 3px 6px 0 #dedbdb59;
     padding: 10px 0 10px 10px;
     background: #fafafa;
     border: 1px solid #e6e3e3;
-    font-size: 20px;
+    font-size: 18px;
     color: #3f3f3f;
+    font-family: 'Poppins', sans-serif;
 }
 .form .FormBtn{}
 .form .FormBtn input[type="submit"]{
-    padding: 18px 95px;
-    font-size: 20px;
+    padding: 15px 70px;
+    font-size: 18px;
     text-transform: uppercase;
     border-radius: 50px;
     border: none;
@@ -748,7 +761,7 @@ footer{
     position: relative;
 }
 .copy-right{
-    width: 60%;
+    width: 70%;
     float: left;
 }
 .copy-right p{
@@ -756,7 +769,7 @@ footer{
     color: #fff;
 }
 .social-icon{
-    width: 40%;
+    width: 30%;
     float: left;
 }
 .social-icon ul{
